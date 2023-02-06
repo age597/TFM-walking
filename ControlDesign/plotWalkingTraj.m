@@ -12,7 +12,7 @@ end
 % Create figure and graphics objects
 figure(1), clf, hold on
 hRef = plot(pathX,pathY,'b-');
-trajX = 0;
+trajX = 0.0;
 trajY = 0;
 hTraj = plot(trajX,trajY,'k:','LineWidth',2); % Trajectory
 hCom = plot(0,0,'go','MarkerSize',10,'LineWidth',3); % Center of mass
